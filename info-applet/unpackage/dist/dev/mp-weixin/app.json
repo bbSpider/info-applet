@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/mine/mine",
+    "pages/person/person",
+    "pages/content/content"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1798dc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/home-before.png",
+        "selectedIconPath": "static/image/home-after.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "/static/image/find-before.png",
+        "selectedIconPath": "/static/image/find-after.png",
+        "text": "看书"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/static/image/mine-before.png",
+        "selectedIconPath": "/static/image/mine-after.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
